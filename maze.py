@@ -91,7 +91,7 @@ walls = [
     Wall(590, 240, 100, 10, (0, 255, 0))
 ]
     
-player = Player("hero.png", 10, 15, 2, 65, 65)
+player = Player("hero.png", 10, 15, 2, 50, 50)
 bad_player_1 = Enemy("cyborg.png", 600, 250, 1, 65, 65, "Right")
 bad_player_2 = Enemy("cyborg.png", 305, 200, 1, 65, 65, "Down")
 gold = GameSprite("treasure.png", 650, 350, 0, 40, 40)
